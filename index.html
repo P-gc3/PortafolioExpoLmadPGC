@@ -1,0 +1,51 @@
+<HTML>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="top-header">
+    <h1 class="nombre">Paulina G Cano</h1>
+    <p class="correo">gcanopaulina@gmail.com</p>
+    </header>
+
+    <!-- HEADER 2 -->
+    <nav class="nav-bar">
+        <a href="#" onclick="goToProject('index.html')">Expo LMAD 2026</a>
+        <a href="#" onclick="goToProject('EXLMAD25.html')">Expo LMAD 2025</a>
+
+    </nav>
+
+    <!-- PROYECTOS -->
+    <section class="projects">
+    
+    <div class ="project-title">
+        <h2>EXPO LMAD 2026</h2>
+    </div>
+    
+    <div class="project-card" onclick="goToProject('DisenoHapticos.html')">
+        <div class="project-bg" style="background-image: url('Img/DH_5.png');">
+        <h2>Diseño de Hápticos</h2>
+        </div>
+    </div>
+
+    <div class="project-card" onclick="goToProject('PET.html')">
+        <div class="project-bg" style="background-image: url('Img/PET_1.png');">
+        <h2>Programación en Entornos Tridimensionales</h2>
+        </div>
+    </div>
+
+    <div class="project-card" onclick="goToProject('POO.html')">
+        <div class="project-bg" style="background-image: url('Img/POO_03.png');">
+        <h2>Programación Orientada a Objetos</h2>
+        </div>
+    </div>
+
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</HTML>
